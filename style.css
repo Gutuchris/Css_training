@@ -1,0 +1,72 @@
+/* 
+
+    selector{
+
+       property: value;
+    
+    }
+
+/* Css Fonts
+
+Common properties in Css Fonts
+1.Font-family -  Font type eg.Arial etc
+2.Font-size - Text size eg 20px
+3.Font-weight - Thickness of characters eg. bold
+4.Font-style -Makes texts Italic or normal
+
+Common fonts families that work on most operating systems 
+
+
+1.Arial
+2.Verdana
+3.Georgia
+4.Times New Roman
+5. San serif
+6. serif
+
+
+Common Units used in font-size
+
+px, % , em , vh 
+
+*/
+
+body{
+  
+
+  background-image:url('img2.jpeg');
+
+  background-size:cover;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  font-weight: bold;
+
+  font-family: monospace;
+
+}
+
+/*   
+}
+
+.p_one{
+
+
+  font-weight: bold;
+  font-style: italic;
+ 
+}
+
+.p_two{
+
+
+    font-weight:bolder ;
+    font-style: normal;
+  
+}
+
+#p_three{
+  background-color: white;
+} */
