@@ -1,0 +1,170 @@
+<!-- 
+  Flexbox Assessment Question
+
+  Task:
+  Create a responsive card layout using Flexbox in HTML and CSS. 
+  The layout should display three cards side-by-side on larger screens 
+  and stack vertically on smaller screens.
+
+  Requirements:
+
+  1. Layout:
+     - Use Flexbox to arrange the cards horizontally inside a container.
+     - The container should have a light gray background and 20px padding.
+     - Ensure the layout wraps on smaller screens (responsive).
+
+  2. Each Card Should Contain:
+     - An image (use any local image saved in the same folder as the HTML file, 
+       e.g., image1.jpg, image2.jpg, image3.jpg)
+     - A heading (<h3>) with the card title.
+     - A paragraph (<p>) with a short description.
+     - A button at the bottom labeled “Read More”.
+
+  3. Card Styling:
+     - Fixed width: 250px
+     - White background with slight box-shadow 
+     - Rounded corners (border-radius)
+     - All units used must be in px only (no %, rem, em, etc.)
+
+  4. Button Styling:
+     - Button should be styled with px for padding and margin.
+     - Use a blue background, white text, and hover effect that darkens the background.
+
+  Bonus (Optional):
+     - Make sure the button is aligned neatly at the bottom of the card 
+       even if the description text length varies.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+   
+
+  <style>
+
+
+body{
+
+    background-color:beige;
+    font-family: sans-serif;
+
+}
+
+.container{
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+
+
+
+}
+
+
+
+.card img{
+    width: 250px;
+    height:150px ;
+}
+
+
+
+
+
+
+
+
+  </style>
+
+  </head>
+  <body>
+
+
+    <!-- Main Div -->
+    <div class="container">
+
+         <!-- Card One -->
+
+         <!-- Card Div -->
+      <div class="card">
+
+        <img src="image1.jpg" alt="image_one" />
+        <!-- Card-Content Div -->
+        <div class="card-content">
+
+            <h3>Card One</h3>
+            <p>This is the description of Card one. It includes an image.</p>
+
+         </div>
+        <!-- End of Card-Content Div -->
+         
+         <button>Read More</button>
+
+      </div>
+     <!-- End of Card Div -->
+
+     <!-- End of Card One -->
+
+
+
+
+           <!-- Card Two -->
+
+         <!-- Card Div -->
+      <div class="card">
+
+        <img src="image2.jpg" alt="image_two" />
+
+        <!-- Card-Content Div -->
+        <div class="card-content">
+
+            <h3>Card Two</h3>
+            <p>This is the description of Card two. It includes an image.</p>
+
+         </div>
+        <!-- End of Card-Content Div -->
+         
+         <button>Read More</button>
+
+      </div>
+     <!-- End of Card Div -->
+      
+     <!-- End of Card Two -->
+
+
+
+         <!-- Card Three -->
+
+         <!-- Card Div -->
+      <div class="card">
+
+        <img src="image3.jpg" alt="image_three" />
+        <!-- Card-Content Div -->
+        <div class="card-content">
+
+            <h3>Card Three</h3>
+            <p>This is the description of Card three. It includes an image.</p>
+
+         </div>
+        <!-- End of Card-Content Div -->
+         
+         <button>Read More</button>
+
+      </div>
+     <!-- End of Card Div -->
+      
+     <!-- End of Card Three -->
+
+
+
+
+
+
+
+
+    </div>
+    <!-- End of Main Div -->
+  </body>
+</html>
